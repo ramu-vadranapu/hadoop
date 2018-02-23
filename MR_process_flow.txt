@@ -1,0 +1,10 @@
+MR job running process for the first time users
+-----------------------------------------------------
+
+1. Develope a simple MapReduce program in eclipse using Java 1.7 or Java 1.8
+2. build a jar in eclipse
+3. create a directory in hdfs path for loading input files to Map Reduce program
+4. Load input files into hdfs directory
+5. Run jar using below command
+
+> yarn jar <<runnableJarName_wholePath>> <<DriverClass(full path including package name)>> <<hdfs input path>> <<hdfs output path(hadoop will create such directory)>>
